@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las Plantas</title>
+    <link rel="shortcut icon" href="./public/icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+
+<body>
+
+    <!-- Barra de Navegación -->
+    <header class="home">
+        <nav class="nav container">
+            <div class="nav_logo">
+                <a href="./index.html" class="nav_logo_link">
+                    <img class="nav_logo_link_img" src="./public/icono.png" alt="Icon">
+                </a>
+                <h2 class="nav_title">
+                    Tienda de Plantas
+                </h2>
+            </div>
+
+            <ul class="nav_link nav_link-menu">
+                <li class="nav_items">
+                    <a href="#" class="nav_links">Inicio</a>
+                </li>
+                <li class="nav_items">
+                    <a href="./pages/tienda.html" class="nav_links">Tienda</a>
+                </li>
+                <li class="nav_items">
+                    <a href="./pages/misplantas.html" class="nav_links">Mis Plantas</a>
+                </li>
+                <li class="nav_items">
+                    <a href="./pages/contacto.html" class="nav_links">Contacto</a>
+                </li>
+
+                <img src="./public/iconos/close.svg" class="nav_close" alt="imagenbarradenavegacion">
+            </ul>
+            <div class="nav_menu">
+                <img src="./public/iconos/menu.svg" class="nav_img" alt="navimgen">
+            </div>
+        </nav>
+
+        <!-- Mensaje Bienvenida - Barra de Navegación -->
+        <section class="home_container container">
+            <h1 class="home_title">Bienvenidos a la mejor tienda de Plantas</h1>
+            <p class="home_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates veritatis
+                consectetur aliquam harum sapiente recusandae non eligendi delectus numquam quasi. Nisi quae dignissimos
+                odit, temporibus fugit soluta ipsa similique suscipit.</p>
+
+            <a href="#promos" class="btn">!Ver promociones!</a>
+            <!-- ---btn=cta -->
+        </section>
+
+    </header>
+
+    <!-- Sección Principal del Home -->
+    <main>
+        <!-- Consejos - Home -->
+        <section class="container tips">
+
+            <!-- Titulo Consejos - Home -->
+            <h2 class="title">Estos son los consejos del dia</h2>
+
+            <!-- Grilla Consejos - Home -->
+            <div class="tips_main">
+
+                <article class="tips_icons">
+                    <img src="./public/iconos/gota.svg" alt="" class="tips_icon_svg">
+                    <!-- tips_subtitle=about_title -->
+                    <h3 class="tips_subtitle">Riego</h3>
+                    <p class="tips_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt repellat
+                        culpa iste odit reiciendis explicabo dolore dolor asperiores similique odit reiciendis explicabo
+                        dolore dolor asperiores similique.</p>
+                </article>
+
+                <article class="tips_icons">
+                    <img src="./public/iconos/hoja.svg" alt="" class="tips_icon_svg">
+                    <h3 class="tips_subtitle">Sustratos</h3>
+                    <p class="tips_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt repellat
+                        culpa iste odit reiciendis explicabo dolore dolor asperiores similique odit reiciendis explicabo
+                        dolore dolor asperiores similique.</p>
+                </article>
+
+                <article class="tips_icons">
+                    <img src="./public/iconos/mano.svg" alt="" class="tips_icon_svg">
+                    <h3 class="tips_subtitle">Cuidados</h3>
+                    <p class="tips_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt repellat
+                        culpa iste odit reiciendis explicabo dolore dolor asperiores similique odit reiciendis explicabo
+                        dolore dolor asperiores similique.</p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Promociones - Home -->
+        <section class="fondopromos">
+            <!-- Fondo Promos -->
+
+            <section class="promos container" id="promos">
+
+                <!-- Titulo Promociones - Home -->
+                <h2 class="title">Te presentamos las ofertas semanales</h2>
+
+                <!-- Grilla Promociones - Home -->
+                <div class="promos_table">
+
+                    <!-- Card Promoción 1 -->
+                    <div class="promo_element">
+                        <h4 class="promo_name">Planta 1</h4>
+                        <h3 class="promo_price">Ahora por $300</h3>
+                        <img class="promo_image" src="./public/images/planta1.jpg" alt="">
+                        <div class="promo_items">
+                            <h4 class="promo_detalles promo_detalles_bef">Antes $500</h4>
+                            <p class="promo_detalles">Planta para interiores</p>
+                            <h6 class="promo_detalles">Envios a todo el pais</h6>
+                        </div>
+                        <a href="a" class="promo_btn">!Comprar!</a>
+                    </div>
+
+                    <!-- Card Promoción 2 -->
+                    <div class="promo_element promo_element_best">
+                        <h4 class="promo_name">Planta 2</h4>
+                        <h3 class="promo_price">Ahora por $150</h3>
+                        <img class="promo_image" src="./public/images/planta2.jpg" alt="">
+                        <div class="promo_items">
+                            <h4 class="promo_detalles promo_detalles_bef">Antes $500</h4>
+                            <p class="promo_detalles">Planta para interiores</p>
+                            <h6 class="promo_detalles">Envios a todo el pais</h6>
+                        </div>
+                        <a href="a" class="promo_btn">!Comprar!</a>
+                    </div>
+
+                    <!-- Card Promoción 3 -->
+                    <div class="promo_element">
+                        <h4 class="promo_name">Planta 3</h4>
+                        <h3 class="promo_price">Ahora por $250</h3>
+                        <img class="promo_image" src="./public/images/planta4.jpg" alt="">
+                        <div class="promo_items">
+                            <h4 class="promo_detalles promo_detalles_bef">Antes $400</h4>
+                            <p class="promo_detalles">Planta para interiores</p>
+                            <h6 class="promo_detalles">Envios a todo el pais</h6>
+                        </div>
+                        <a href="a" class="promo_btn">!Comprar!</a>
+                    </div>
+
+                </div>
+            </section>
+        </section>
+        <br>
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <section class="footer_container container">
+
+                <!-- Barra Navegación - Footer -->
+                <nav class="nav nav_footer">
+                    <h2 class="footer_title">Tienda de Plantas</h2>
+                    <ul class="nav_link nav_link_footer">
+                        <li class="nav_items">
+                            <a href="./index.html" class="nav_links">Inicio</a>
+                        </li>
+                        <li class="nav_items">
+                            <a href="./pages/tienda.html" class="nav_links">Tienda</a>
+                        </li>
+                        <li class="nav_items">
+                            <a href="./pages/misplantas.html" class="nav_links">Mis Plantas</a>
+                        </li>
+                        <li class="nav_items">
+                            <a href="./pages/contacto.html" class="nav_links">Contacto</a>
+                        </li>
+                    </ul>
+
+                </nav>
+
+                <!-- Sucribirse Promociones - Footer -->
+                <form class="footer_form">
+                    <h2 class="footer_newsletter">
+                        Suscribete a nuestras promociones </h2>
+                    <div class="footer_input_div">
+                        <input type="email" placeholder="Email:" class="footer_input">
+                        <input type="submit" value="Registrate" class="footer_submit">
+                    </div>
+                </form>
+            </section>
+
+            <!-- Social Media - Footer -->
+            <section class="footer_copy container">
+                <div class="footer_social">
+                    <a href="#" class="footer_icons">
+                        <img src="./public/iconos/facebook.svg" alt="Facebook" class="footer_icon_img">
+                    </a>
+                    <a href="#" class="footer_icons">
+                        <img src="./public/iconos/instagram.svg" alt="Instagram" class="footer_icon_img">
+                    </a>
+                    <a href="#" class="footer_icons">
+                        <img src="./public/iconos/twitter.svg" alt="Twitter" class="footer_icon_img">
+                    </a>
+                </div>
+
+                <h3 class="footer_copyright">Derechos Reservados &copy; Jorge Díaz Gómez</h3>
+            </section>
+
+        </footer>
+
+    </main>
+
+    <!-- Scripst JS -->
+    <script src="./js/menu.js"></script>
+
+</body>
+
+</html>
